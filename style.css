@@ -171,7 +171,7 @@ img {
 /*--------------------------------
  Works
 ---------------------------------*/
-
+/*
 .works-list {
   display: flex;
   flex-wrap: wrap;
@@ -221,6 +221,59 @@ img {
   font-size: 15px;
   margin: 0;
 }
+*/
+
+/* ミッションページ　5つのゴールの設定 */
+ #mission-five-goals {
+   padding: 20px;
+   display: flex;
+ }
+ 
+ #mission-five-goals .five-goals-image {
+   width: 30%;
+   padding: 20px;
+ }
+ 
+ #mission-five-goals .five-goals-image img {
+   width: 100%;
+ }
+ 
+ #mission-five-goals .five-goals-read {
+   width: 70%;
+   height: 300px;
+   padding: 20px;
+ }
+ 
+ #mission-five-goals .five-goals-read > div {
+   margin-bottom: 40px;
+ }
+ 
+ .fivegoals-image-right {
+   float: right;
+   margin: 20px;
+ }
+ 
+ .fivegoals-image-left {
+   float: left;
+   margin: 20px;
+ }
+ 
+ .fivegoals-number {
+   color: #2710d5;
+   font-size: 48px;
+   font-weight: bold;
+   margin: 0;
+ }
+ 
+ .fivegoals-h3 {
+   font-size: 28px;
+   margin: 0;
+ }
+ 
+ .fivegoals-p {
+   margin: 0;
+ }
+
 /*--------------------------------
  Skill
 ---------------------------------*/
@@ -340,7 +393,7 @@ body {
   opacity: 0;
 }
 .pagetop:hover {
-    box-shadow: 0 0 10px #00A6C4;
+    box-shadow: 0 0 10px #FFA4A4;
 }
 
 /*--------------------------------
